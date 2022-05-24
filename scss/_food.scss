@@ -1,0 +1,41 @@
+.food {
+    padding-top: 296px;
+    padding-bottom: 269px;
+    background-color: rgb(242, 88, 72);
+    background: url("../images/food-image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 5;
+
+    &__txt {
+        text-align: center;
+        color: $primary;
+        font-size: 22px;
+        margin-bottom: 87px;
+        line-height: 30px;
+        z-index: -50;
+    }
+
+    &__name {
+        text-align: center;
+        color: $primary;
+        font-size: 30px;
+        font-family: "Calistoga", sans-serif; 
+        font-weight: 400;
+    }
+}
+
+.food::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgb(247, 87, 71, 0.8);
+    width: 100%;
+    height: 100%;
+    z-index: -99;
+}

@@ -1,0 +1,67 @@
+.update {
+    padding-top: 232px;
+    padding-bottom: 250px;
+    background-color: $page;
+    background-image: url(../images/vector-images-four.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    &__header {
+        text-align: center;
+        font-size: 40px;
+        color: $text-color;
+        margin-bottom: 40px;
+    }
+
+    &__lorem {
+        text-align: center;
+        margin-bottom: 85px;
+        color: $text-color;
+        font-family: "Nunito", sans-serif;
+        font-weight: 400;
+    }
+}
+
+.form {
+    position: relative;
+    width: 100%;
+    margin: 0 15px;
+}
+
+.form__input {
+    position: absolute;
+    padding-left: 37px;
+    width: 100%;
+    border-radius: 40px;
+    border: none;
+    height: 50px;
+    color: #c1ae9f;
+    padding-right: 87px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+}
+
+.form__button {
+    cursor: pointer;
+    position: absolute;
+    width: 138px;
+    height: 54px;
+    border: none;
+    background-color: #f64b3c;
+    color: #ffffff;
+    top: -3px;
+    right: 0;
+    left: 470px;
+    text-transform: uppercase;
+    padding-right: 14px;
+    border-radius: 0px 28px 31px 0px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+}
+
+.form-center {
+    display: flex;
+    width: 584px;
+    margin: 0 auto;
+}

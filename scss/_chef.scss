@@ -1,0 +1,109 @@
+.testimonials {
+    padding-top: 91px;
+    padding-bottom: 141px;
+    background-color: $page;
+    background-image: url(../images/bg-vector.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.chef {
+    &__title {
+        color: $text-color;
+        text-align: center;
+        font-size: 35px;
+        margin-bottom: 40px;
+    }
+
+    &__people {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__name {
+        color: $text-color;
+        font-size: 25px;
+        text-transform: uppercase;
+        margin-top: 0;
+        position: relative;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    &__description {
+        font-family: "Montserrat", sans-serif;
+        color: $text-color;
+        font-size: 18px;
+        margin-top: -15px;
+        width: 158px;
+        text-align: center;
+        margin-top: 3px;
+    }
+
+    &__container {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+.chef-sub {
+    &__info {
+        text-align: center;
+        position: relative;
+        color: $text-color;
+        font-size: 15px;
+        margin-top: 0px;
+        font-family: "Montserrat", sans-serif;
+    }
+}
+
+.chef-sub {
+    display: flex;
+    justify-content: center;
+}
+
+.chef__img {
+    border-radius: 50%;
+    max-width: 150px;
+    margin-top: 67px;
+}
+
+.chef__name-woman {
+    position: relative;
+    color: #f64b3c;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.chef__name-woman-2 {
+    position: relative;
+    color: #f64b3c;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.chef__info {
+    color: #f64b3c;
+    font-size: 18px;
+    margin-top: -15px;
+    width: 158px;
+    text-align: center;
+    margin-top: 3px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.chef__about {
+    font-family: "Montserrat", sans-serif;
+    color: #f64b3c;
+    font-size: 18px;
+    margin-top: 3px;
+    width: 158px;
+    text-align: center;
+}

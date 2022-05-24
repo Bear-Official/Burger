@@ -1,0 +1,109 @@
+.header {
+    padding-bottom: 106px;
+    padding-top: 60px;
+    background-image: url("../images/burger-right.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.header {
+    &__link {
+        text-decoration: none;
+        color: white;
+    }
+
+    .logo__img {
+        max-width: 93px;
+        height: 85px;
+        margin-bottom: 101px;
+    }
+
+    &__center {
+        position: relative;
+
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__container {
+        max-width: 1140px;
+        display: flex;
+        justify-content: center;
+
+        .menu-button {
+            display: none;
+        }
+    }
+
+    .nav {
+        display: flex;
+        justify-content: center;
+        font-family: "Poppins", sans-serif;
+    }
+
+    &__item {
+        list-style: none;
+        text-transform: uppercase;
+        height: 0;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+
+.cash__back {
+    &-title {
+        color: white;
+        font-size: 42px;
+        margin-bottom: 30px;
+    }
+
+    &-description {
+        font-family: "Nunito", sans-serif;
+        color: white;
+        margin-bottom: 40px;
+        line-height: 23px;
+    }
+}
+
+.button {
+    background-color: #f64b3c;
+    color: white;
+    cursor: pointer;
+    border-radius: 38px;
+    border: none;
+    padding: 10px 50px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+.header__link:hover {
+    color: rgba(245, 245, 245, 0.863);
+}
+
+.header::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(255, 255, 255, 0) 100%
+    );
+    width: 100%;
+    height: 100px;
+}
+
+.menu-button {
+    display: none;
+}
+
+.menu {
+    display: none;
+}

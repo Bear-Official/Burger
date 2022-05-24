@@ -1,0 +1,54 @@
+.burger-big {
+    background-color: $page;
+    padding-top: 268px;
+    padding-bottom: 118px;
+    background-repeat: no-repeat;
+    background-size: 80%; 
+    background-image: url(../images/vector-images-two.jpg); 
+    background-position: center;
+}
+
+.burger-container {
+    margin: 0 auto;
+    max-width: 1099px;
+}
+
+.burger__img {
+    max-width: 500px;
+    border-radius: 50%;
+    margin-left: 121px;
+}
+
+.burger--second {
+    order: 2;
+}
+
+.burger__header {
+    font-size: 40px;
+    color: $text-color; 
+    margin-bottom: 40px;
+}
+
+.burger__text {
+    color: $text-color;
+    line-height: 20px; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button-btn {
+    margin-top: 30px; 
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: bold;
+}
+
+.burger--modificator {
+    margin-right: 144px;
+}
+
+
+.shape {
+    width: 50px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: white;
+}

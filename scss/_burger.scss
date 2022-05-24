@@ -1,0 +1,51 @@
+.burger {
+    padding-top: 171px;
+    padding-bottom: 147px;
+    background-color: $text-color;
+
+    &__best {
+        max-width: 500px;
+        border-radius: 50%;
+    }
+
+
+    &__title {
+        font-size: 40px;
+        color: $primary; 
+        margin-bottom: 30px;
+    }
+
+    &__lorem {
+        color: $primary;
+        font-size: 15px;
+        width: 338px;
+        line-height: 20px;  
+        font-family: 'Nunito', sans-serif;
+    }
+
+    &--wrapper {
+        display: flex;
+        align-items: center;
+    }
+
+    &-wrap {
+        margin-left: 144px;
+    }
+}
+
+.btn-two {
+    background-color: $primary;
+    color: $text-color;
+    cursor: pointer;
+    border-radius: 38px;
+    border: none;
+    padding: 10px 50px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.best-burger {
+    display: flex;
+    align-items: flex-start;
+}

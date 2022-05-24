@@ -1,0 +1,63 @@
+.footer {
+    background-color: rgb(34, 34, 34);
+    padding-top: 242px;
+    padding-bottom: 290px;
+
+    &__title {
+        color: $primary;
+        font-size: 26px;
+        margin-bottom: 35px;
+    }
+
+    &__sub__description {
+        color: $primary;
+        line-height: 23px;
+        margin-right: 201px;
+        font-family: "Nunito", sans-serif;
+        font-weight: 400;
+    }
+
+    &__images {
+        margin-top: 35px;
+        display: flex;
+    }
+
+    &__img {
+        padding-right: 15px;
+    }
+
+    &__nav {
+        display: flex;
+    }
+
+    &__container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    &__about {
+        margin-right: 142px;
+    }
+
+    &__services {
+        margin-right: 96px;
+    }
+
+    &__items {
+        list-style-type: none;
+        color: $primary;
+        padding-bottom: 19px;
+    }
+
+    &__links {
+        text-decoration: none;
+        color: $primary;
+        font-family: "Nunito", sans-serif;
+        font-weight: 400;
+    }
+
+    &__header {
+        font-size: 26px;
+        padding-bottom: 36px;
+    }
+}

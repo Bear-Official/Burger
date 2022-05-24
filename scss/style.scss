@@ -1,0 +1,31 @@
+@import "vars";
+@import "fonts";
+@import "reset";
+@import "libs";
+@import "global";
+// Style for settings
+@import "_settings.scss";
+// Style for header
+@import "_header.scss";
+// Style for adaptive
+@import "_media.scss";
+// Style for variables
+@import "_variables.scss";
+// Style for section chef
+@import "_chef.scss";
+// Style for burge section
+@import "_burger.scss";
+// Style for big burger
+@import "_bigburger.scss";
+// Style for statistics
+@import "statistics.scss";
+// Style for package section
+@import "_package.scss";
+// Style for food
+@import "_food.scss";
+// Style for update
+@import "_update.scss";
+// Style for Footer
+@import "_footer.scss";
+
+@import "_aos.scss";

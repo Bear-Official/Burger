@@ -1,0 +1,61 @@
+.package {
+    background-color: $page;
+    padding-top: 93px;
+    padding-bottom: 80px;
+    background-image: url(../images/vector-images-three.jpg); 
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: contain;
+
+    &__title {
+        color: $text-color;
+        text-align: center;
+        font-size: 40px;
+        padding-bottom: 143px;
+    }
+
+    &__header {
+        padding: 26px;
+        color: $text-color;
+        text-transform: uppercase;
+    }
+
+    &--wrapper {
+        display: flex;
+        justify-content: space-evenly;
+        z-index: 30;
+    }
+
+    &-card {
+        background-color: $primary;
+        width: 300px;
+        border-radius: 8px;
+        padding-bottom: 26px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .button {
+        margin-top: 28px; 
+        font-family: 'Montserrat', sans-serif; 
+        font-weight: bold;
+    }
+
+    &__price {
+        font-size: 25px;
+        color: $text-color;
+    }
+
+    &__sub {
+        color: $text-color; 
+        margin-top: 24px; 
+        font-family: 'Montserrat', sans-serif; 
+        font-weight: 400;
+    }
+
+    .burger__icon {
+        max-width: 80px;
+        margin-bottom: 41px;
+    }
+}
