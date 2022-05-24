@@ -9,7 +9,7 @@
 
     &__header {
         text-align: center;
-        font-size: 40px;
+        font-size: 68px;
         color: $text-color;
         margin-bottom: 40px;
     }
@@ -19,7 +19,7 @@
         margin-bottom: 85px;
         color: $text-color;
         font-family: "Nunito", sans-serif;
-        font-weight: 400;
+        font-size: 26px;
     }
 }
 
@@ -50,9 +50,9 @@
     border: none;
     background-color: #f64b3c;
     color: #ffffff;
-    top: -3px;
+    top: -2px;
     right: 0;
-    left: 470px;
+    left: 605px;
     text-transform: uppercase;
     padding-right: 14px;
     border-radius: 0px 28px 31px 0px;
@@ -62,6 +62,6 @@
 
 .form-center {
     display: flex;
-    width: 584px;
+    width: 770px;
     margin: 0 auto;
 }

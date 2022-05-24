@@ -1,5 +1,5 @@
-html, body {
-    
+html,
+body {
 }
 
 .wrapper {
@@ -12,4 +12,21 @@ html, body {
     max-width: 1250px;
     margin: 0 auto;
     padding: 0 15px;
+}
+
+.button {
+    background-color: #f64b3c;
+    color: white;
+    font-size: 22px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 38px;
+    border: none;
+    padding: 10px 50px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    height: 62px;
+    width: 321px;
 }

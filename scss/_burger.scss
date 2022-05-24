@@ -8,19 +8,18 @@
         border-radius: 50%;
     }
 
-
     &__title {
-        font-size: 40px;
-        color: $primary; 
+        font-size: 68px;
+        color: $primary;
         margin-bottom: 30px;
     }
 
     &__lorem {
         color: $primary;
-        font-size: 15px;
-        width: 338px;
-        line-height: 20px;  
-        font-family: 'Nunito', sans-serif;
+        font-size: 24px;
+        width: 475px;
+        line-height: 25px;
+        font-family: "Nunito", sans-serif;
     }
 
     &--wrapper {
@@ -32,7 +31,6 @@
         margin-left: 144px;
     }
 }
-
 .btn-two {
     background-color: $primary;
     color: $text-color;
