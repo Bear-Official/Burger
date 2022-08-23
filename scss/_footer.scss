@@ -1,0 +1,74 @@
+.footer {
+    background-color: rgb(34, 34, 34);
+    padding-top: 242px;
+    padding-bottom: 200px;
+    overflow: hidden;
+
+    &__title {
+        font-size: 26px;
+        margin-bottom: 35px;
+        color: white;
+    }
+
+    &__inner {
+        display: flex;
+    }
+
+    &__description {
+        line-height: 23px;
+        margin-right: 201px;
+        font-family: "Nunito", sans-serif;
+        font-weight: 400;
+        color: white;
+    }
+
+    &__images {
+        margin-top: 35px;
+        display: flex;
+    }
+
+    &__img {
+        margin-right: 15px;
+        transition: all 0.2s;
+
+        &:hover {
+            background-color: #f64b3c;
+            border-radius: 100%;
+        }
+    }
+
+    &__nav {
+        display: flex;
+    }
+
+    &__about {
+        margin-right: 142px;
+    }
+
+    &__services {
+        margin-right: 96px;
+    }
+
+    &__item {
+        list-style-type: none;
+        color: white;
+        padding-bottom: 15px;
+    }
+
+    &__header {
+        font-size: 26px;
+        padding-bottom: 36px;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: white;
+        font-family: "Nunito", sans-serif;
+        font-weight: 400;
+        transition: all 0.3s;
+
+        &:hover {
+            color: #f64b3c;
+        }
+    }
+}

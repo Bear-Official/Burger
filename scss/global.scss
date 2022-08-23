@@ -1,22 +1,24 @@
 // Settings
 @import "vars";
 @import "fonts";
-@import "reset";
+@import "reset"; 
+@import "media";
 
 // Components
-@import "header.html";
-@import "footer.html";
+@import "header";
+@import "footer";
 
 // Pages
-@import "index.html";
-
+@import "index";
 
 html,
 body {
     height: 100%;
+    font-family: "Archivo", sans-serif;
+    font-weight: 700;
 }
 
-.wrapper {
-    max-width: 1140px;
-    margin: 0 auto;
+.container {
+    max-width: 1227px;
+    margin: 0 auto; 
 }

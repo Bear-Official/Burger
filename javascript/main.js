@@ -1,1 +1,1 @@
-alert('EBBATII!')
+AOS.init();

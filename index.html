@@ -1,30 +1,331 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
-    <title>Document</title>
+    <title>Burger</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo:wght@700&family=Calistoga&family=Montserrat:wght@400;700&family=Nunito:wght@400;700&family=Poppins:wght@600&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/style.min.css">
-    <script type="text/javascript" src="javascript/main.min.js"></script>
-    <script type="text/javascript" src="javascript/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="css/aos.css">
+
 </head>
 
 <body>
 
     <header class="header">
-
+        <div class="container">
+            <div class="header__inner">
+                <div class="logo">
+                    <img class="header__logo" src="images/header-logo.png" alt="icon: logo">
+                </div>
+                <div class="header__container">
+                    <nav class="header__navigation">
+                        <input type="checkbox" id="active" class="menu">
+                        <label for="active" class="menu-btn"><span></span></label>
+                        <label for="active" class="close"></label>
+                        <div class="container wrapper">
+                            <ul class="header__list nav-mobile">
+                                <li class="header__item">
+                                    <a class="header__link" href="#">Home</a>
+                                </li>
+                                <li class="header__item">
+                                    <a class="header__link" href="#product">Product</a>
+                                </li>
+                                <li class="header__item">
+                                    <a class="header__link" href="#promo">Promo</a>
+                                </li>
+                                <li class="header__item">
+                                    <a class="header__link" href="#about">About</a>
+                                </li>
+                                <li class="header__item">
+                                    <a class="header__link" href="#contacts">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="header__cash-back">
+                <h1 class="header__title" data-aos="fade-right" data-aos-delay="550">Get Cashback <br> up to 50%
+                </h1>
+                <p class="header__description">
+                    Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Suspendisse consectetur <br> justo
+                    eu
+                    nunc
+                    consequat.
+                </p>
+                <button class="header__button" type="submit" data-aos="flip-right" data-aos-duration="1400">Order
+                    now</button>
+            </div>
+        </div>
     </header>
 
     <main class="page">
+        <section class="testimonials" id="about">
+            <div class="chef">
+                <div class="container">
+                    <h1 class="chef__title">Our Chef</h1>
+                    <div class="chef__block">
+                        <p class="chef__sub-description">
+                            Lorem ipsum dolor sit amet, consectete- tur adipiscing elit. Vi- <br> vamus lacinia odio
+                            vitae
+                            vestibulum
+                            vestibulum.
+                        </p>
+                    </div>
+                    <div class="chef__inner">
+                        <div class="chef__item" data-aos="flip-down" data-aos-duration="2500">
+                            <img class="chef__img" src="images/man-1.png" alt="icon: man-1">
+                            <h2 class="chef__name">Aiden Hunter</h2>
+                            <span class="chef__description">Founder</span>
+                        </div>
+                        <div class="chef__item" data-aos="flip-right" data-aos-duration="2500">
+                            <img class="chef__img" src="images/woman2.png" alt="icon: woman-2">
+                            <h2 class="chef__name">Ethel Ramsey</h2>
+                            <span class="chef__description">Co-Founder</span>
+                        </div>
+                        <div class="chef__item" data-aos="flip-left" data-aos-duration="2500">
+                            <img class="chef__img" src="images/woman3.png" alt="icon: woman-3">
+                            <h2 class="chef__name">Fannie Stewart</h2>
+                            <span class="chef__description">Co-Founder</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="burger" id="product">
+            <div class="container">
+                <div class="burger__inner">
+                    <div class="burger__wrap">
+                        <img class="burger__img" src="images/best-burger.jpg" alt="icon: best-burger"
+                            data-aos="fade-down" data-aos-delay="420">
+                    </div>
+                    <div class="burger-wrap">
+                        <h1 class="burger__title">Best Burger</h1>
+                        <p class="burger__description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae
+                            vestibulum
+                            vestibulum.
+                        </p>
+                        <button class="button btn" type="submit" data-aos="flip-right" data-aos-duration="1000">Order
+                            now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="deals">
+            <div class="container">
+                <div class="burger__inner">
+                    <div class="burger__block">
+                        <img class="burger__img" src="images/best-burger.jpg" alt="icon: best-burger"
+                            data-aos="fade-down" data-aos-delay="420">
+                    </div>
+                    <div class="deals__item">
+                        <h1 class="deals__title">Best Burger</h1>
+                        <p class="deals__description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae
+                            vestibulum
+                            vestibulum.
+                        </p>
+                        <div class="deals__wrap">
+                            <button class="button btn" type="submit" data-aos="flip-right"
+                                data-aos-duration="1000">Order
+                                now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="statistics">
+            <div class="container">
+                <h1 class="statistics__title">Statistics</h1>
+                <div class="statistics__block">
+                    <p class="statistics__description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Vivamus lacinia odio vitae
+                        vestibulum
+                        vestibulum.
+                    </p>
+                </div>
+                <div class="statistics__inner">
+                    <div class="statistics__item" data-aos="flip-right" data-aos-delay="355">
+                        <span class="statistics__header">7k</span>
+                        <span class="statistics__sub-desc">Customer</span>
+                    </div>
+                    <div class="statistics__item" data-aos="flip-right" data-aos-delay="400">
+                        <span class="statistics__header">10</span>
+                        <span class="statistics__sub-desc">Outlets</span>
+                    </div>
+                    <div class="statistics__item" data-aos="flip-right" data-aos-delay="450">
+                        <span class="statistics__header">35</span>
+                        <span class="statistics__sub-desc">Country</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="package" id="promo">
+            <div class="container">
+                <h1 class="package__title">Popular Package</h1>
+                <div class="package__inner">
+                    <div class="package__item">
+                        <h2 class="package__header">Package I</h2>
+                        <div class="package__block">
+                            <img class="package__img" src="images/burger-icon.png" alt="icon: burger-icon">
+                        </div>
+                        <span class="package__price">$10.00</span>
+                        <p class="package__description">
+                            Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit.
+                        </p>
+                        <button class="package__button" type="submit">Order
+                            now</button>
+                    </div>
+                    <div class="package__item">
+                        <h2 class="package__header">Package II</h2>
+                        <div class="package__block">
+                            <img class="package__img" src="images/burger-icon.png" alt="icon: burger-icon">
+                        </div>
+                        <span class="package__price">$20.00</span>
+                        <p class="package__description">
+                            Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit.
+                        </p>
+                        <button class="package__button" type="submit">Order
+                            now</button>
+                    </div>
+                    <div class="package__item">
+                        <h2 class="package__header">Package III</h2>
+                        <div class="package__block">
+                            <img class="package__img" src="images/burger-icon.png" alt="icon: burger-icon">
+                        </div>
+                        <span class="package__price">$30.00</span>
+                        <p class="package__description">
+                            Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit.
+                        </p>
+                        <button class="package__button" type="submit">Order
+                            now</button>
+                    </div>
+                </div>
+        </section>
+        <section class="blog">
+            <div class="container">
+                <p class="blog__description">
+                    Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Vivamus lacinia odio vitae <br>
+                    vestibulum
+                    vestibulum.
+                </p>
+                <h2 class="blog__author-name">Barry Henderson</h2>
 
+            </div>
+        </section>
+        <section class="update">
+            <div class="container">
+                <h1 class="update__title">Don’t miss Our Update</h1>
+                <p class="update__description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Vivamus lacinia odio vitae vestibulum
+                    vestibulum.
+                </p>
+                <div class="form__block">
+                    <form class="form" action="#">
+                        <input class="form__input" type="email" placeholder="Your Email" data-aos="fade-up">
+                        <button class="form__button" type="button" data-aos="fade-up">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer" id="contacts">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__block">
+                    <h3 class="footer__title">Title Here</h3>
+                    <p class="footer__description">
+                        Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Aliquam at dignissim nunc,
+                        <br> id
+                        maximus
+                        ex. Etiam
+                        nec dignissim
+                        elit, at <br> dignissim enim.
+                    </p>
 
+                    <div class="footer__images">
+                        <a class="footer__link" href="#">
+                            <img class="footer__img" src="images/instagram.png" alt="icon: instagram">
+                        </a>
+                        <a class="footer__link" href="#">
+                            <img class="footer__img" src="images//Facebook.png" alt="icon: Facebook">
+                        </a>
+                        <a class="footer__link" href="#">
+                            <img class="footer__img" src="images/Twitter.png" alt="icon: Twitter">
+                        </a>
+                        <a class="footer__link" href="#">
+                            <img class="footer__img" src="images/WhatsApp.png" alt="icon: WhatsApp">
+                        </a>
+                    </div>
+                </div>
+                <nav class="footer__nav">
+                    <div class="footer__about">
+                        <li class="footer__item">
+                            <h3 class="footer__header">About</h3>
+                            <a href="#" class="footer__link">History</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Our Team</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Brand Guidelines</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Terms & Condition</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Privacy Policy</a>
+                        </li>
+                    </div>
+                    <div class="footer__services">
+                        <li class="footer__item">
+                            <h3 class="footer__header">Services</h3>
+                            <a href="#" class="footer__link">How to Order</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Our Product</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Order Status</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Promo</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Payment Method</a>
+                        </li>
+                    </div>
+                    <div class="footer__other">
+                        <li class="footer__item">
+                            <h3 class="footer__header">Other</h3>
+                            <a href="#" class="footer__link">Contact us</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Help</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Privacy</a>
+                        </li>
+                    </div>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </footer>
 
+    <script src="javascript/aos.js"></script>
+    <script type="text/javascript" src="javascript/main.min.js"></script>
+    <script type="text/javascript" src="javascript/jquery-3.6.0.min.js"></script>
 </body>
+
 </html>
