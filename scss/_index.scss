@@ -50,7 +50,7 @@
 
         &__inner {
             display: flex;
-            justify-content: space-evenly; 
+            justify-content: space-evenly;
             flex-wrap: wrap;
         }
 
@@ -76,6 +76,17 @@
     background-color: #f64b3c;
     overflow: hidden;
 
+    &--red {
+        background-color: #f6eedf;
+        padding-top: 268px;
+        padding-bottom: 118px;
+        background-repeat: no-repeat;
+        background-size: 80%;
+        background-image: url(../images/vector-images-two.jpg);
+        background-position: center;
+        overflow: hidden;
+    }
+
     &__wrap {
         display: flex;
         align-items: flex-start;
@@ -89,6 +100,10 @@
         font-size: 68px;
         margin-bottom: 30px;
         color: white;
+
+        &--red {
+            color: #f64b3c;
+        }
     }
 
     &__description {
@@ -98,15 +113,26 @@
         font-family: "Nunito", sans-serif;
         color: white;
         margin-bottom: 75px;
+
+        &--red {
+            color: #f64b3c;
+        }
     }
 
     &__inner {
         display: flex;
         align-items: center;
+        justify-content: space-around;
+        flex-direction: row-reverse;
+
+        &--reverse {
+            flex-direction: row;
+        }
     }
 
-    &-wrap {
-        margin-left: 144px;
+    &__wrap {
+        display: flex;
+        flex-direction: column;
     }
 
     &__block {
@@ -124,51 +150,11 @@
         text-align: center;
         color: #f64b3c;
         font-size: 25px;
-    }
-}
 
-.deals {
-    background-color: #f6eedf;
-    padding-top: 268px;
-    padding-bottom: 118px;
-    background-repeat: no-repeat;
-    background-size: 80%;
-    background-image: url(../images/vector-images-two.jpg);
-    background-position: center;
-    overflow: hidden;
-
-    &__inner {
-        display: flex;
-    }
-
-    &__title {
-        font-size: 68px;
-        margin-bottom: 30px;
-        color: #f64b3c;
-    }
-
-    &__description {
-        font-size: 24px;
-        width: 475px;
-        line-height: 25px;
-        font-family: "Nunito", sans-serif;
-        color: #fff;
-        margin-bottom: 75px;
-        color: #f64b3c;
-        margin-right: 144px;
-    }
-
-    .btn {
-        cursor: pointer;
-        border-radius: 38px;
-        border: none;
-        width: 322px;
-        height: 65px;
-        text-transform: uppercase;
-        text-align: center;
-        color: white;
-        background-color: #f64b3c;
-        font-size: 25px;
+        &--red {
+            background-color: #f64b3c;
+            color: white;
+        }
     }
 }
 
