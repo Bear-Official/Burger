@@ -197,8 +197,8 @@
         display: block !important;
         position: absolute;
         z-index: 999;
-        right: 0px;
-        top: -15px;
+        right: -24px;
+        top: 19px;
         height: 50px;
         width: 50px;
         text-align: center;
@@ -492,12 +492,12 @@
     }
 
     .button {
-        width: 100% !important; 
+        width: 100% !important;
 
-        &__rs { 
-               width: 150% !important; 
+        &__rs {
+            width: 150% !important;
         }
-    } 
+    }
 }
 
 @media (max-width: 420px) {
@@ -527,5 +527,15 @@
         &__item {
             width: 100%;
         }
+    } 
+
+  .logo { 
+    &__img { 
+        max-width: 70% !important;
+    } 
+
+    &__title { 
+        font-size: 30px !important;
     }
+  }
 }

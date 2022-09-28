@@ -25,9 +25,19 @@
     }
 
     &__logo {
+        display: flex;
+        align-items: center;
         max-width: 93px;
         height: 85px;
-        margin-bottom: 101px;
+    }
+
+    .logo {
+        &__title {
+            font-size: 52px;
+            color: white;
+            padding-left: 10px;
+            font-family: "Popins", sans-serif;
+        }
     }
 
     &__navigation {
@@ -63,6 +73,7 @@
         position: relative;
         display: flex;
         justify-content: space-between;
+        margin-bottom: 101px;
     }
 
     &__title {
